@@ -358,7 +358,7 @@ Business</h1>
    
           <div className={classes.bottom}>
             <h6>Minting cost?</h6>
-            <p>0.5 sol for all 5000 unit</p>
+            <p>0.29 sol for all 5000 unit</p>
           </div>
        
         </Container>
