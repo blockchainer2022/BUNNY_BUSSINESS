@@ -84,7 +84,7 @@ const Index = () => {
               <Grid item xs className={classes.top}>
                 <img src={Image3} alt="" />
                 <span>
-                  <b>Comming Soon</b>
+                  <b>Coming Soon</b>
                 </span>
               </Grid>
             </Grid>
@@ -99,11 +99,11 @@ const Index = () => {
                 <p>Mint 3,333 Solana Bunny NFTs</p>
               </Box>
               <Box className={classes.top}>
-                <img src={Image3} alt="" />
+                <img src={Image2} alt="" />
                 <p>List On Secondary Marketplaces</p>
               </Box>
               <Box className={classes.top}>
-                <img src={Image3} alt="" />
+                <img src={Image2} alt="" />
                 <p>
                   Attributes, metadata, and rarity ranking reveal Launch
                   BunnyDAO
@@ -121,32 +121,32 @@ const Index = () => {
                 </p>
               </Box>
               <Box className={classes.top}>
-                <img src={Image2} alt="" />
+                <img src={Image3} alt="" />
                 <p>Launch Bunny Bombs (NFT Airdrop for Bunny holders)</p>
               </Box>
               <Box className={classes.top}>
-                <img src={Image2} alt="" />
+                <img src={Image3} alt="" />
                 <p>Exclusive SBB merchandise drop limited to holders only</p>
               </Box>
             </Box>{" "}
             <Box className={classes.bottom}>
               <h6>Q2 2022 - and beyond</h6>
               <Box className={classes.top}>
-                <img src={Image2} alt="" />
+                <img src={Image3} alt="" />
                 <p>
                   Create more fun, interactive experiences for Solana NFT
                   ecosystem
                 </p>
               </Box>
               <Box className={classes.top}>
-                <img src={Image2} alt="" />
+                <img src={Image3} alt="" />
                 <p>
                   Bunny Holders will receive owner-exclusive advantages and
                   exclusive rewards
                 </p>
               </Box>
               <Box className={classes.top}>
-                <img src={Image2} alt="" />
+                <img src={Image3} alt="" />
                 <p>Continue to innovate based on community requests</p>
               </Box>
             </Box>

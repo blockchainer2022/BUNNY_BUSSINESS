@@ -34,12 +34,12 @@ const Index = () => {
         <Container maxWidth="md">
           <h2 className={classes.header}>About</h2>
           <Grid container spacing={6}>
-            <Grid item xs={12} sm={3}>
-              <div style={{ width: "90%", margin: "auto" }}>
+            <Grid item xs={12} sm={4}>
+              <div style={{ width: "100%", margin: "auto" }}>
                 <img src={Image} alt="" />
               </div>
             </Grid>
-            <Grid item xs={12} sm={9}>
+            <Grid item xs={12} sm={8}>
               <p>
                 Solana Bunny Business is a collection of 3,333 unique randomly
                 generated SolanaBunnys stored on the blockchain. The project’s
