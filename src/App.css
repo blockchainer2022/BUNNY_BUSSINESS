@@ -4,6 +4,10 @@
   src: url(./assets/font/GalanoGrotesqueSemiBold.woff);
 }
 @font-face {
+  font-family: "Roundish Toons", sans-serif;
+  src: url(./assets/font/Roundish\ Toons.ttf);
+}
+@font-face {
   font-family: "Galano Grotesque Regular";
   src: url(./assets/font/GalanoGrotesqueRegular.woff);
 }
