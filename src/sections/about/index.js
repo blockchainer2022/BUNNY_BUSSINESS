@@ -35,7 +35,7 @@ const Index = () => {
           <h2 className={classes.header}>About</h2>
           <Grid container spacing={6}>
             <Grid item xs={12} sm={4}>
-              <div style={{ width: "100%", margin: "auto" }}>
+              <div style={{ width: "90%", margin: "auto" }}>
                 <img src={Image} alt="" />
               </div>
             </Grid>
