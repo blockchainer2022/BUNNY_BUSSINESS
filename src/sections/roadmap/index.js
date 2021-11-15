@@ -96,7 +96,7 @@ const Index = () => {
               </Box>
               <Box className={classes.top}>
                 <img src={Image1} alt="" />
-                <p>Mint 4,444 Solana Bunny NFTs</p>
+                <p>Mint 3,333 Solana Bunny NFTs</p>
               </Box>
               <Box className={classes.top}>
                 <img src={Image3} alt="" />

@@ -291,7 +291,7 @@ const Home = (props: HomeProps) => {
       <Container className={classes.root}>
         <h1>Solana Bunny
 Business</h1>
-        <p>A collection of 4,444 generative collectible Bunny Rabbit NFTs bouncing into the Metaverse .</p>   
+        <p>A collection of 3,333 generative collectible Bunny Rabbit NFTs bouncing into the Metaverse .</p>   
 
        <div className={classes.icon}>
           <a href="#"><img src={Discord} alt="" /></a>
@@ -358,7 +358,7 @@ Business</h1>
    
           <div className={classes.bottom}>
             <h6>Minting cost?</h6>
-            <p>0.29 sol for all 5000 unit</p>
+            <p>0.29 sol for all 3,333 unit</p>
           </div>
        
         </Container>
