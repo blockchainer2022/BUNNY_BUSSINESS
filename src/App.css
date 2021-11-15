@@ -1,11 +1,10 @@
-@import url("http://fonts.cdnfonts.com/css/roundish-toons");
 @font-face {
   font-family: "Galano Grotesque SemiBold";
   src: url(./assets/font/GalanoGrotesqueSemiBold.woff);
 }
 @font-face {
   font-family: "Roundish Toons", sans-serif;
-  src: url(./assets/font/Roundish\ Toons.ttf);
+  src: url(./assets/font/Roundish_Toons.ttf);
 }
 @font-face {
   font-family: "Galano Grotesque Regular";
