@@ -253,7 +253,7 @@ const Home = (props: HomeProps) => {
   };
   // let startTime = ('11/04/2021T13:00:00.000+0000')
 //  let startTime = ('11/04/2021T13:00:00.000+0000').replace(/(+\d{2})(\d{2})$/, "$1:$2")
-  const difference = +dayjs.utc('2021-11-10T13:00:00.000+0000', 'YYYY-MM-DDTHH:mm:ss.000ZZ') - +new Date();
+  const difference = +dayjs.utc('2021-11-21T18:00:00.000+0000', 'YYYY-MM-DDTHH:mm:ss.000ZZ') - +new Date();
 
   useEffect(() => {
     const id = setTimeout(() => {
@@ -291,15 +291,14 @@ const Home = (props: HomeProps) => {
       <Container className={classes.root}>
         <h1>Solana Bunny
 Business</h1>
-        <p>A collection of 5,000 algorithmically generated, collectible,
-pride punk ready to fight for the championship.</p>   
+        <p>A collection of 4,444 generative collectible Bunny Rabbit NFTs bouncing into the Metaverse .</p>   
 
        <div className={classes.icon}>
           <a href="#"><img src={Discord} alt="" /></a>
           <a href="#"><img src={Twitter} alt="" /></a>
        </div>
         <h4>Mint</h4>
-        <p  style={{marginTop:10,fontSize:18}}>MINT TIMES IS SEPTEMBER 14 TH 1:00 PM UTC TIME</p>
+        <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 21st 18:00 UTC time</p>
        { difference < 0 ?
        <div>
        <div className={classes.walletWrapper}>

@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
       display: "inline-block",
       textDecoration: "none",
       marginLeft: "30px",
-      fontSize: "26px",
+      fontSize: "22px",
       textTransform: "uppercase",
       transition: "all 0.5s",
       [theme.breakpoints.down("md")]: {
@@ -98,7 +98,7 @@ const Index = () => {
       <Container>
         <ul className={classes.menu}>
           <li>
-            <a href="#rarity">Rarity</a>
+            <a href="#rarity">Sneak Pics</a>
           </li>
           <li>
             <a href="#about">About</a>
@@ -119,7 +119,7 @@ const Index = () => {
         <div className={`${classes.mobileMenu} ${open ? "active" : ""}`}>
           <ul>
             <li>
-              <a href="#rarity">Rarity</a>
+              <a href="#rarity">Sneak Pics</a>
             </li>
             <li>
               <a href="#about">About</a>

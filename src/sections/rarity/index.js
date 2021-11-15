@@ -33,7 +33,7 @@ const Index = () => {
   return (
     <section className={classes.root} id="rarity">
       <Container maxWidth="md">
-        <h2>RARITY</h2>
+        <h2>Sneak Pics</h2>
         <Grid container spacing={2}>
           {Images.map((v, i) => (
             <Grid item xs={12} sm={6} md={3} lg={3} key={i}>

@@ -8,25 +8,25 @@ import Image4 from "../../assets/team4.png";
 const data = [
   {
     image: Image1,
-    title: "Monkey mcgregor",
+    title: "B Rabbit",
     role: "Co-founder",
     dep: "(Management)",
   },
   {
     image: Image2,
-    title: "Ape Diaz",
+    title: "Thumper",
     role: "Co-founder",
     dep: "(tech)",
   },
   {
     image: Image3,
-    title: "Chimp sonnen",
+    title: "Roger Rabbit",
     role: "Co-founder",
     dep: "(Arts)",
   },
   {
     image: Image4,
-    title: "Gorilla mane",
+    title: "Baxter",
     role: "",
     dep: "(Comedic Relief)",
   },

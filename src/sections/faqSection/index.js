@@ -4,22 +4,21 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const accordianData = [
   {
-    question: "Total supply of pride punks?",
-    answer: "There will only be 5000 OG  pride punks. ",
+    question: "Total supply of Solana Bunnys?",
+    answer: "There will only be 4,444 OG Solana Bunnys.",
   },
   {
     question: "What is the minting cost?",
-    answer: "0.5 SOL for all 5000  pride punks. ",
+    answer: "0.29 for all 4,444 Solana Bunnys.",
   },
   {
-    question: "Where can i buyor sell pride punks?",
+    question: "Where can I buy or sell Solana Bunnys?",
     answer:
-      "After mint, a marketplace will be available on DigitalEyes. We will be working on other Marketplaces as well. ",
+      "After mint, a marketplace will be available on MagicEden. We will be working on other Marketplaces as well.",
   },
   {
-    question: "will my pride punks help me in a street fight?",
-    answer:
-      "Yes! It will help you fight like Conor Mcgregor (Minus The Leg Break).",
+    question: "What is the Solana Bunny roll call?",
+    answer: "THUMP THUMP ",
   },
 ];
 const useStyles = makeStyles({

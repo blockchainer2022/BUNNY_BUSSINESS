@@ -41,15 +41,20 @@ const Index = () => {
             </Grid>
             <Grid item xs={12} sm={9}>
               <p>
-                Limited: 1,500 unique, fruity, algorithmically generated Bananas
-                - stored with proof of ownership stored on the Solana
-                blockchain.
+                Solana Bunny Business is a collection of 4,444 unique randomly
+                generated SolanaBunnys stored on the blockchain. The project’s
+                goal is to create a collaborative space for holders passionate
+                about the burgeoning Solana NFT market.
               </p>
               <p>
-                We believe in Solana and we believe in NFTs. In the future,
-                we'll look at this period as a defining moment in culture and
-                technology. History is being made, and we want to be part of it
-                in a meaningful way.
+                SolanaBunnys will build a large ecosystem enhanced by a constant
+                stream of creativity, support, and funding to community approved
+                initiatives via the BunnyDAO and community wallet. With the rise
+                of massive communities across the entire NFT ecosystems across
+                various L1 & L2 chains, SolanaBunnys are now here to establish a
+                digital home for everyone in the Bunny community! We envision
+                several derivative bunny projects to emerge out of this
+                collection, promoting inclusivity!
               </p>
             </Grid>
           </Grid>

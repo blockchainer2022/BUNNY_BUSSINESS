@@ -89,57 +89,44 @@ const Index = () => {
               </Grid>
             </Grid>
             <Box className={classes.bottom}>
-              <h6>Q3 2021</h6>
-              <Box className={classes.top}>
-                <img src={Image1} alt="" />
-                <p>
-                  Launch Bananagram - an NFT game for Apes, Monkeys, and other
-                  Degens
-                </p>
-              </Box>
-              <Box className={classes.top}>
-                <img src={Image1} alt="" />
-                <p>Launch Tournament for the Degen Ape Academy</p>
-              </Box>
-              <Box className={classes.top}>
-                <img src={Image1} alt="" />
-                <p>Add other premiere collections to Bananagram</p>
-              </Box>
-            </Box>{" "}
-            <Box className={classes.bottom}>
               <h6>Q4 2021</h6>
               <Box className={classes.top}>
                 <img src={Image1} alt="" />
-                <p>Mint 1,500 Solana Banana NFTs</p>
+                <p>Solana Bunny Business (SBB) website launch </p>
               </Box>
               <Box className={classes.top}>
                 <img src={Image1} alt="" />
-                <p>List on secondary Marketplaces</p>
+                <p>Mint 4,444 Solana Bunny NFTs</p>
+              </Box>
+              <Box className={classes.top}>
+                <img src={Image3} alt="" />
+                <p>List On Secondary Marketplaces</p>
               </Box>
               <Box className={classes.top}>
                 <img src={Image3} alt="" />
                 <p>
-                  10% of proceeds from initial sale will be donated to the Dian
-                  Fossey Gorilla Fund
+                  Attributes, metadata, and rarity ranking reveal Launch
+                  BunnyDAO
                 </p>
-              </Box>
-              <Box className={classes.top}>
-                <img src={Image3} alt="" />
-                <p>Launch Banana Bombs (Airdrop for Banana holders)</p>
               </Box>
             </Box>{" "}
             <Box className={classes.bottom}>
               <h6>Q1 2021</h6>
               <Box className={classes.top}>
                 <img src={Image2} alt="" />
-                <p>Launch next game - 🖍️ Degen Drawing</p>
+                <p>
+                  {
+                    "Launch Solana Bunny Hop - A NFT game for Bunnys, Monkeys, and other Degens"
+                  }
+                </p>
               </Box>
               <Box className={classes.top}>
                 <img src={Image2} alt="" />
-                <p>
-                  Holders will receive in-game perks, access and rewards on
-                  future games
-                </p>
+                <p>Launch Bunny Bombs (NFT Airdrop for Bunny holders)</p>
+              </Box>
+              <Box className={classes.top}>
+                <img src={Image2} alt="" />
+                <p>Exclusive SBB merchandise drop limited to holders only</p>
               </Box>
             </Box>{" "}
             <Box className={classes.bottom}>
@@ -154,8 +141,8 @@ const Index = () => {
               <Box className={classes.top}>
                 <img src={Image2} alt="" />
                 <p>
-                  Banana Holders will receieve in-game perks and exclusive
-                  rewards
+                  Bunny Holders will receive owner-exclusive advantages and
+                  exclusive rewards
                 </p>
               </Box>
               <Box className={classes.top}>
