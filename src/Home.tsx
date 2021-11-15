@@ -291,7 +291,7 @@ const Home = (props: HomeProps) => {
       <Container className={classes.root}>
         <h1>Solana Bunny
 Business</h1>
-        <p>A collection of 3,333 generative collectible Bunny Rabbit NFTs bouncing into the Metaverse .</p>   
+        <p>A collection of 3,333 generative collectible Bunny Rabbit NFTs bouncing into the Metaverse.</p>   
 
        <div className={classes.icon}>
           <a href="#"><img src={Discord} alt="" /></a>
