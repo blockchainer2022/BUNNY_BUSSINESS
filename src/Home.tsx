@@ -295,8 +295,8 @@ Business</h1>
         <p>A collection of 3,333 generative collectible Bunny Rabbit NFTs bouncing into the Metaverse.</p>   
 
        <div className={classes.icon}>
-          <a href="#"><img src={Discord} alt="" /></a>
-          <a href="#"><img src={Twitter} alt="" /></a>
+          <a href="https://discord.gg/hZhZ46uY" target="_blank" rel="noreferrer"><img src={Discord} alt="" /></a>
+          <a href="https://mobile.twitter.com/solanabunnybs" target="_blank" rel="noreferrer"><img src={Twitter} alt="" /></a>
        </div>
         {/* <h4>Mint</h4> */}
         <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 23rd 18:00 UTC</p>
