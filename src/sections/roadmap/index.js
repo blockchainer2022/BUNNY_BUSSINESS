@@ -118,7 +118,7 @@ const Index = () => {
               </Box>
             </Box>{" "}
             <Box className={classes.bottom}>
-              <h6>Q1 2021</h6>
+              <h6>Q1 2022</h6>
               <Box className={classes.top}>
                 <img src={Image2} alt="" />
                 <p>
