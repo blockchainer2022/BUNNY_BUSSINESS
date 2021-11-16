@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme)=>({
      width:"100%",
      color:"#FF7900",
      [theme.breakpoints.down("md")]: {
-     fontSize:"24px",
+     fontSize:"40px",
   
       
     },
