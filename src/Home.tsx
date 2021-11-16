@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme)=>({
    textAlign:"center",
 
    "& h1":{
-     fontSize:"30px",
+     fontSize:"80px",
      margin:"50px auto 30px auto",
      maxWidth:"600px",
      width:"100%",
@@ -63,7 +63,7 @@ const useStyles = makeStyles((theme)=>({
     
    },
    "& h4":{
-     fontSize:"18px",
+     fontSize:"30px",
      marginTop:40,
      marginBottom:"0",
      textTransform:"uppercase"
@@ -71,9 +71,9 @@ const useStyles = makeStyles((theme)=>({
 
    },
    "&  .MuiButton-contained":{
-    fontFamily: "Roundish Toons, sans-serif",
-     fontSize:"14px",
+      fontFamily: "BubbleGum",
      backgroundColor:"#FF7900",
+     padding:"auto 50px",
      color:"white",
       borderRadius:20,
       "&:hover":{
@@ -81,7 +81,8 @@ const useStyles = makeStyles((theme)=>({
       },
     "& span":{
       display:"block",
-      fontSize:"18px",
+      fontSize:"30px",
+      lineHeight:1.4
     
     }
 
@@ -297,7 +298,7 @@ Business</h1>
           <a href="#"><img src={Discord} alt="" /></a>
           <a href="#"><img src={Twitter} alt="" /></a>
        </div>
-        <h4>Mint</h4>
+        {/* <h4>Mint</h4> */}
         <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 21st 18:00 UTC time</p>
        { difference < 0 ?
        <div>

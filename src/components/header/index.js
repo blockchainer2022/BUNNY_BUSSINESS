@@ -98,7 +98,7 @@ const Index = () => {
       <Container>
         <ul className={classes.menu}>
           <li>
-            <a href="#rarity">Sneak Pics</a>
+            <a href="#rarity">Sneak Peek</a>
           </li>
           <li>
             <a href="#about">About</a>
@@ -119,7 +119,7 @@ const Index = () => {
         <div className={`${classes.mobileMenu} ${open ? "active" : ""}`}>
           <ul>
             <li>
-              <a href="#rarity">Sneak Pics</a>
+              <a href="#rarity">Sneak Peek</a>
             </li>
             <li>
               <a href="#about">About</a>

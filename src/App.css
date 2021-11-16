@@ -3,8 +3,8 @@
   src: url(./assets/font/GalanoGrotesqueSemiBold.woff);
 }
 @font-face {
-  font-family: "Roundish Toons", sans-serif;
-  src: url(./assets/font/Roundish-Toons.ttf.woff);
+  font-family: "BubbleGum";
+  src: url(./assets/font/Bubblegum.woff);
 }
 @font-face {
   font-family: "Galano Grotesque Regular";
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roundish Toons", sans-serif;
+  font-family: "BubbleGum";
 }
 body .MuiButtonBase-root {
   /* font-family: "Roundish Toons", sans-serif; */
@@ -56,7 +56,7 @@ body .MuiButtonBase-root {
   width: fit-content;
   margin-right: auto;
   margin-left: auto;
-  font-family: "Fixedsys Excelsior 3.01";
+
   margin-top: 20px;
 }
 .hero-section .MuiButton-containedPrimary span {
@@ -78,7 +78,7 @@ body .MuiButtonBase-root {
 }
 .connect-wallet h1 {
   font-size: 30px;
-  font-family: "Fixedsys Excelsior 3.01";
+  font-family: "Galano Grotesque Regular";
   margin-top: 0;
 }
 
@@ -87,7 +87,7 @@ body .MuiButtonBase-root {
   justify-content: space-between;
 }
 .wallet-content .MuiButton-contained {
-  font-family: "Fixedsys Excelsior 3.01";
+  font-family: "Galano Grotesque Regular";
 }
 .wallet-content p {
   margin-bottom: 1rem;

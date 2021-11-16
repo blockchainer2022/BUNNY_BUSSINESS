@@ -18,7 +18,7 @@ const useStyles = makeStyles({
     backgroundColor: "transparent",
     "& h2": {
       textAlign: "left",
-      fontSize: "24px",
+      fontSize: "50px",
       marginBottom: "30px",
       color: "#FF7900",
     },
@@ -33,7 +33,7 @@ const Index = () => {
   return (
     <section className={classes.root} id="rarity">
       <Container maxWidth="md">
-        <h2>Sneak Pics</h2>
+        <h2>Sneak Peek</h2>
         <Grid container spacing={2}>
           {Images.map((v, i) => (
             <Grid item xs={12} sm={6} md={3} lg={3} key={i}>

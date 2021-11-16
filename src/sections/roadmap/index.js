@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   header: {
-    fontSize: "24px",
+    fontSize: "50px",
     margin: "20px 0 40px",
     color: "#FF7900",
     textTransform: "uppercase",
