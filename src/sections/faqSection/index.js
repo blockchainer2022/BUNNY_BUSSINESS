@@ -9,7 +9,7 @@ const accordianData = [
   },
   {
     question: "What is the minting cost?",
-    answer: "0.29 for all 3,333 Solana Bunnys.",
+    answer: "0.25 for all 3,333 Solana Bunnys.",
   },
   {
     question: "Where can I buy or sell Solana Bunnys?",
