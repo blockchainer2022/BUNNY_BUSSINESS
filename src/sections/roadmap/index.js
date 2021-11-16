@@ -78,7 +78,7 @@ const Index = () => {
               <Grid item xs className={classes.top}>
                 <img src={Image2} alt="" />
                 <span>
-                  <b>InProgress</b>
+                  <b>In Progress</b>
                 </span>
               </Grid>
               <Grid item xs className={classes.top}>
@@ -107,6 +107,13 @@ const Index = () => {
                 <p>
                   Attributes, metadata, and rarity ranking reveal Launch
                   BunnyDAO
+                </p>
+              </Box>
+              <Box className={classes.top}>
+                <img src={Image2} alt="" />
+                <p>
+                  Launch $SolBunny token with percentage of supply airdropped to
+                  all NFT holders
                 </p>
               </Box>
             </Box>{" "}
