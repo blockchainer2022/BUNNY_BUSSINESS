@@ -359,7 +359,7 @@ Business</h1>
    
           <div className={classes.bottom}>
             <h6>Minting cost?</h6>
-            <p>0.25 sol</p>
+            <p>0.25 SOL</p>
           </div>
        
         </Container>
