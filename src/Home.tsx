@@ -254,7 +254,7 @@ const Home = (props: HomeProps) => {
   };
   // let startTime = ('11/04/2021T13:00:00.000+0000')
 //  let startTime = ('11/04/2021T13:00:00.000+0000').replace(/(+\d{2})(\d{2})$/, "$1:$2")
-  const difference = +dayjs.utc('2021-11-23T18:00:00.000+0000', 'YYYY-MM-DDTHH:mm:ss.000ZZ') - +new Date();
+  const difference = +dayjs.utc('2021-11-26T18:00:00.000+0000', 'YYYY-MM-DDTHH:mm:ss.000ZZ') - +new Date();
 
   useEffect(() => {
     const id = setTimeout(() => {
@@ -299,7 +299,7 @@ Business</h1>
           <a href="https://mobile.twitter.com/solanabunnybs" target="_blank" rel="noreferrer"><img src={Twitter} alt="" /></a>
        </div>
         {/* <h4>Mint</h4> */}
-        <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 23rd 18:00 UTC</p>
+        <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 26rd 18:00 UTC</p>
        { difference < 0 ?
        <div>
        <div className={classes.walletWrapper}>
