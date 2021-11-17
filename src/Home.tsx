@@ -254,7 +254,7 @@ const Home = (props: HomeProps) => {
   };
   // let startTime = ('11/04/2021T13:00:00.000+0000')
 //  let startTime = ('11/04/2021T13:00:00.000+0000').replace(/(+\d{2})(\d{2})$/, "$1:$2")
-  const difference = +dayjs.utc('2021-11-26T18:00:00.000+0000', 'YYYY-MM-DDTHH:mm:ss.000ZZ') - +new Date();
+  const difference = +dayjs.utc('2021-11-24T18:00:00.000+0000', 'YYYY-MM-DDTHH:mm:ss.000ZZ') - +new Date();
 
   useEffect(() => {
     const id = setTimeout(() => {
@@ -292,14 +292,14 @@ const Home = (props: HomeProps) => {
       <Container className={classes.root}>
         <h1>Solana Bunny
 Business</h1>
-        <p>A collection of 3,333 generative collectible Bunny Rabbit NFTs bouncing into the Metaverse.</p>   
+        <p>A collection of X,XXX generative collectible Bunny Rabbit NFTs bouncing into the Metaverse.</p>   
 
        <div className={classes.icon}>
           <a href="https://discord.gg/K4xsxun4WR" target="_blank" rel="noreferrer"><img src={Discord} alt="" /></a>
           <a href="https://mobile.twitter.com/solanabunnybs" target="_blank" rel="noreferrer"><img src={Twitter} alt="" /></a>
        </div>
         {/* <h4>Mint</h4> */}
-        <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 26th 18:00 UTC</p>
+        <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 24th 18:00 UTC</p>
        { difference < 0 ?
        <div>
        <div className={classes.walletWrapper}>
@@ -308,7 +308,7 @@ Business</h1>
       )}
         {wallet && <p className="wallet-item"><span> Balance: </span> <span> {(balance || 0).toLocaleString()} SOL </span> </p>}
 
-{wallet && <p  className="wallet-item"> <span>Total Available: </span> <span> {itemsAvailable} </span></p>}
+{wallet && <p  className="wallet-item"> <span>Total Available: </span> <span> X,XXX </span></p>}
 
 {wallet && <p className="wallet-item"><span> Redeemed: </span> <span> {itemsRedeemed}</span></p>}
 

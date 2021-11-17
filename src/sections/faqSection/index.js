@@ -5,11 +5,12 @@ import { makeStyles } from "@material-ui/core/styles";
 const accordianData = [
   {
     question: "Total supply of Solana Bunnys?",
-    answer: "There will only be 3,333 OG Solana Bunnys.",
+    answer:
+      "This is a stealth mint, supply of OG Solana Bunnys will be released after mint is completed.",
   },
   {
     question: "What is the minting cost?",
-    answer: "0.25 for all 3,333 Solana Bunnys.",
+    answer: "0.25 for all X,XXX Solana Bunnys.",
   },
   {
     question: "Where can I buy or sell Solana Bunnys?",
