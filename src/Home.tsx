@@ -141,6 +141,7 @@ const Home = (props: HomeProps) => {
   const [isSoldOut, setIsSoldOut] = useState(false); // true when items remaining is zero
   const [isMinting, setIsMinting] = useState(false); // true when user got to press MINT
   // const [minCount, setMintCount] = useState(2)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [itemsAvailable, setItemsAvailable] = useState(0);
   const [itemsRedeemed, setItemsRedeemed] = useState(0);
   const [itemsRemaining, setItemsRemaining] = useState(0);
