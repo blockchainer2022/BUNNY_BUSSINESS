@@ -293,7 +293,7 @@ const Home = (props: HomeProps) => {
       <Container className={classes.root}>
         <h1>Solana Bunny
 Business</h1>
-        <p>A collection of X,XXX generative collectible Bunny Rabbit NFTs bouncing into the Metaverse.</p>   
+        <p>A collection of 2,222 generative collectible Bunny Rabbit NFTs bouncing into the Metaverse.</p>   
 
        <div className={classes.icon}>
           <a href="https://discord.gg/K4xsxun4WR" target="_blank" rel="noreferrer"><img src={Discord} alt="" /></a>
@@ -309,7 +309,7 @@ Business</h1>
       )}
         {wallet && <p className="wallet-item"><span> Balance: </span> <span> {(balance || 0).toLocaleString()} SOL </span> </p>}
 
-{wallet && <p  className="wallet-item"> <span>Total Available: </span> <span> X,XXX </span></p>}
+{wallet && <p  className="wallet-item"> <span>Total Available: </span> <span>{itemsAvailable}</span></p>}
 
 {wallet && <p className="wallet-item"><span> Redeemed: </span> <span> {itemsRedeemed}</span></p>}
 
@@ -360,7 +360,7 @@ Business</h1>
    
           <div className={classes.bottom}>
             <h6>Minting cost?</h6>
-            <p>0.25 SOL</p>
+            <p>0.15 SOL</p>
           </div>
        
         </Container>
