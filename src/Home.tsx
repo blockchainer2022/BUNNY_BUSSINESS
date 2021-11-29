@@ -300,7 +300,7 @@ Business</h1>
           <a href="https://mobile.twitter.com/solanabunnybs" target="_blank" rel="noreferrer"><img src={Twitter} alt="" /></a>
        </div>
         {/* <h4>Mint</h4> */}
-        <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 26th 18:00 UTC</p>
+       
        { difference < 0 ?
        <div>
        <div className={classes.walletWrapper}>
