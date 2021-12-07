@@ -311,10 +311,6 @@ Business</h1>
 
 {wallet && <p  className="wallet-item"> <span>Total Available: </span> <span>{itemsAvailable}</span></p>}
 
-{wallet && <p className="wallet-item"><span> Redeemed: </span> <span> {itemsRedeemed}</span></p>}
-
-{wallet && <p className="wallet-item"><span>Remaining: </span> <span>{itemsRemaining}</span> </p>}
-        
        </div>
       
           <MintContainer>
