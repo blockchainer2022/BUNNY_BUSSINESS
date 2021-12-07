@@ -311,7 +311,7 @@ Business</h1>
       )}
         {wallet && <p className="wallet-item"><span> Balance: </span> <span> {(balance || 0).toLocaleString()} SOL </span> </p>}
 
-{wallet && <p  className="wallet-item"> <span>Total Available: </span> <span>{itemsAvailable}</span></p>}
+{/* {wallet && <p  className="wallet-item"> <span>Total Available: </span> <span>{itemsAvailable}</span></p>} */}
 
        </div>
       
