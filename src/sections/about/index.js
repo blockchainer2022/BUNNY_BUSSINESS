@@ -41,7 +41,7 @@ const Index = () => {
             </Grid>
             <Grid item xs={12} sm={8}>
               <p>
-                Solana Bunny Business is a collection of 2,222 unique randomly
+                Solana Bunny Business is a collection of 654 unique randomly
                 generated SolanaBunnys stored on the blockchain. The project’s
                 goal is to create a collaborative space for holders passionate
                 about the burgeoning Solana NFT market.
