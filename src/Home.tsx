@@ -319,7 +319,7 @@ Business</h1>
           <MintContainer>
           {!wallet ? (
            <div className="connect-wallet">
-            <ConnectButton disabled fullWidth>Mint Now</ConnectButton>
+            <ConnectButton  fullWidth>Mint Now</ConnectButton>
           </div>
           ) :(
             <MintButton
