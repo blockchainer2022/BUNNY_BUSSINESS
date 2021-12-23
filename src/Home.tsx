@@ -71,6 +71,9 @@ const useStyles = makeStyles((theme)=>({
      
 
    },
+   "& .MuiButton-contained.Mui-disabled":{
+    backgroundColor:"#746e6a",
+   },
    "&  .MuiButton-contained":{
       fontFamily: "BubbleGum",
      backgroundColor:"#FF7900",
@@ -333,7 +336,7 @@ Business</h1>
                 isMinting ? (
                   <CircularProgress />
                 ) : (
-                  "MINT"
+                  "SOLD OUT"
                 ) 
               ) : (
                 <Countdown
