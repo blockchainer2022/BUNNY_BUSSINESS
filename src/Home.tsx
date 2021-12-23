@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useEffect, useState } from "react";
 import styled from "styled-components";
@@ -318,13 +319,12 @@ Business</h1>
           <MintContainer>
           {!wallet ? (
            <div className="connect-wallet">
-            <ConnectButton fullWidth>Mint Now</ConnectButton>
+            <ConnectButton disabled fullWidth>Mint Now</ConnectButton>
           </div>
           ) :(
             <MintButton
-              disabled={isSoldOut || isMinting || !isActive}
-              onClick={onMint}
-              variant="contained"
+            variant="contained" disabled
+              
          
             >
               {isSoldOut ? (
